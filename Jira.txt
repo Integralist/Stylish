@@ -1,0 +1,171 @@
+/* URLs on the domain: jira.dev.bbc.co.uk */
+
+/* Import Lato Font */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400);
+
+/* Change global font */
+
+* {
+  font-family: 'Lato', sans-serif !important;
+}
+
+/* Remove "Frameworks" header */
+
+.ghx-sprint-support #ghx-header h1, 
+.ghx-no-sprint-support #ghx-header h1 {
+	color: transparent;
+}
+
+/* Move "Sprint" section in header up */
+
+#ghx-controls-sprint {
+	margin-top: -90px;
+  margin-left: 10px;
+}
+
+/* Move "Quick Filters" section in header up */
+
+#ghx-controls .ghx-controls-filters {
+	margin-top: -90px;
+}
+
+/* Move "Plan / Work / Report" section in header (right) up */
+
+#ghx-modes-tools {
+	margin-top: -5px;
+}
+
+/* Move task panel up */
+
+#ghx-work {
+	margin-top: -36px; 
+}
+
+/* Move Plan panel up */
+
+#ghx-plan-group {
+	margin-top: -30px;
+}
+
+/* Move search (Plan page) in header (left) up */
+
+#ghx-backlog-search {
+	margin-top: -90px; 
+}
+
+nav.global,
+#announcement-banner,
+.ghx-feedback,
+.footer-body {
+  display: none;   
+}
+
+.aui-theme-default #header .local {
+  border: none;
+}
+
+.aui-layout #footer {
+  padding-bottom: 0px;
+}
+
+.aui-theme-default #header .local,
+.aui-theme-default #header .local .primary>ul>li,
+.ghx-column-headers .ghx-column,
+.ghx-modes .button.active,
+.ghx-modes .button:hover,
+.ghx-classification-progress .ghx-implemented {
+  background-color: #4aa3df;    
+}
+
+.ghx-column-headers .ghx-column h2 {
+  color: #fff;
+  padding-bottom: 0px;
+  padding-top: 7px;
+}
+
+#ghx-column-headers img {
+  display: none;
+}
+
+.ghx-sprint-support #ghx-header h1:before {
+  background: none;
+}
+
+.ghx-sprint-support #ghx-header h1,
+.ghx-no-sprint-support #ghx-header h1 {
+  padding-left: 0px;
+}
+
+.ghx-column-headers .ghx-column,
+.ghx-columns .ghx-column {
+  border: none;
+}
+
+.ghx-swimlane .ghx-swimlane-header {
+  background: none;
+  margin-top: 6px;
+}
+
+.ghx-swimlane {
+  margin-top: 10px; 
+}
+
+#ghx-pool.ghx-has-swimlanes .ghx-columns .ghx-column {
+  padding-top: 35px;
+  padding-bottom: 0px;
+}
+
+.ghx-swimlane:last-of-type .ghx-columns .ghx-column, .ghx-sad-columns .ghx-column {
+  border: none;
+}
+
+.ghx-issue.ghx-selected, 
+.ghx-issue.ghx-selected-group {
+  background-color: #F0F0F0;
+}
+
+.ghx-issue .ghx-corner,
+.ghx-issue.ghx-selected .ghx-end {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+	background-color: #F0F0F0; 
+}
+
+/* Enlarge the avatar images */
+
+.ghx-avatar img {
+    height: 52px;
+	width: 52px;
+}
+
+.ghx-has-avatar .ghx-issue-fields, .ghx-has-corner .ghx-issue-fields {
+	padding-right: 50px;
+}
+
+/* Enlarge the avatar images for when side panel is open */
+
+.ghx-band-2 .ghx-issue .ghx-avatar img {
+	height: 44px;
+	width: 44px;
+}
+
+.ghx-band-2 .ghx-has-avatar .ghx-issue-fields, .ghx-band-2 .ghx-has-corner .ghx-issue-fields {
+	padding-right: 40px;
+}
+
+/* Hide some items in the ticket quick view */
+
+.ghx-fieldname-components,
+.ghx-fieldname-versions,
+.ghx-fieldname-fixVersions,
+.ghx-detail-section div:nth-of-type(2n), 
+.ghx-detail-section div:nth-of-type(3n) {
+    display: none;
+}
+
+/* Remove extra whitespace between description and details */
+
+.ghx-detail-nav .ghx-detail-section {
+	margin-bottom: 12px;
+}
